@@ -80,7 +80,7 @@ def fetch_github_data(username, token):
 
 # Example usage
 if __name__ == "__main__":
-    GITHUB_TOKEN = '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'  # Replace with your GitHub personal access token
+    GITHUB_TOKEN = 'token'  # Replace with your GitHub personal access token
     st.sidebar.header("GitHub User Fetcher")  # Add a sidebar header
     
     # Dropdown for selecting GitHub usernames
