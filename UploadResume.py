@@ -11,7 +11,7 @@ import docx
 from openai import OpenAI
 
 # Initialize OpenAI client with environment variable for API key
-XAI_API_KEY = 'xai-KCmcApF74JBadi0QCqOP4l3E0RFACuamm6qupJld8lZQcooPmapDLoGJgjWazFJXaeg5hcPJhsRwYriD'
+XAI_API_KEY = ''
 client = OpenAI(
     api_key=XAI_API_KEY,
     base_url="https://api.x.ai/v1",
