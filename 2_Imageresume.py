@@ -30,7 +30,7 @@ prompt = st.chat_input("Press enter to extract data from image")
 # Initialize OpenAI client
 client = OpenAI(
     base_url="https://api-inference.huggingface.co/v1/",
-    api_key="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"
+    api_key=""
 )
 
 # Initialize SQLite database connection
